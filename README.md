@@ -8,7 +8,9 @@ The HTTP server uses a custom port (eg. 8080) to serve a client, When a client r
 
 I've targeted only GET and PUT requests in client, So this program can able to GET a html response or PUT a html content to or from the server respectively.
 
-This HTTP server is multi-threaded so it will process many clients request simultaneously. (Not tested yet! But i beleive so.)
+This HTTP server is multi-threaded so it will process many clients request simultaneously.
+
+Client can communicate with server as well as send a request for a file which server would server to by sending the required file to client.
 
 ## Contents
 
